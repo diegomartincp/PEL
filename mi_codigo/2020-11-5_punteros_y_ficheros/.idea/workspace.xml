@@ -30,8 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b35db931-6c16-4e59-ac13-8dece84e7da2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/encuesta.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encuestaCompleto.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../becados_binary" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\diegomartinc\CLionProjects\PEL\mi_codigo\2020-11-5_punteros_y_ficheros" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="2020_11_5_punteros_y_ficheros" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2020_11_5_punteros_y_ficheros" TARGET_NAME="2020_11_5_punteros_y_ficheros" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="2020_11_5_punteros_y_ficheros" RUN_TARGET_NAME="2020_11_5_punteros_y_ficheros">
@@ -83,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604604881316</updated>
-      <workItem from="1604604882623" duration="386000" />
+      <workItem from="1604604882623" duration="6203000" />
     </task>
     <task id="LOCAL-00001" summary="crear">
       <created>1604604902545</created>
@@ -106,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604604985857</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="struct nodo y añadir encuesta">
+      <created>1604605478767</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604605478767</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,12 +137,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="crear" />
-    <option name="LAST_COMMIT_MESSAGE" value="crear" />
+    <MESSAGE value="struct nodo y añadir encuesta" />
+    <option name="LAST_COMMIT_MESSAGE" value="struct nodo y añadir encuesta" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604604991667">
+    <state x="933" y="175" key="FileChooserDialogImpl" timestamp="1604605497039">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604604991667" />
+    <state x="933" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604605497039" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1604612523741">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604612523741" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1604612523741">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1604612523741" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1604612523740">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1604612523740" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1604612523741">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1604612523741" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604605484879">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604605484879" />
   </component>
 </project>
