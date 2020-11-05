@@ -1,0 +1,3 @@
+C:/Users/diegomartinc/CLionProjects/PEL/codigo_clase/2020-11-5 Ficheros y punteros/cmake-build-debug/CMakeFiles/2020_11_5_Ficheros_y_punteros.dir
+C:/Users/diegomartinc/CLionProjects/PEL/codigo_clase/2020-11-5 Ficheros y punteros/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/diegomartinc/CLionProjects/PEL/codigo_clase/2020-11-5 Ficheros y punteros/cmake-build-debug/CMakeFiles/rebuild_cache.dir
