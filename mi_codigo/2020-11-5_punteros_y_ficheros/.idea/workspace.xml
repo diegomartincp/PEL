@@ -29,7 +29,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b35db931-6c16-4e59-ac13-8dece84e7da2" name="Default Changelist" comment="" />
+    <list default="true" id="b35db931-6c16-4e59-ac13-8dece84e7da2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604604881316</updated>
-      <workItem from="1604604882623" duration="7777000" />
+      <workItem from="1604604882623" duration="9140000" />
     </task>
     <task id="LOCAL-00001" summary="crear">
       <created>1604604902545</created>
@@ -121,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604614371289</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Importar nodos">
+      <created>1604614626943</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604614626943</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
