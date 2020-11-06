@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <time.h>
 using namespace std;
 
 struct nodo{
@@ -22,19 +23,35 @@ struct nodo{
 };
 
 nodo *head=NULL, *final=NULL;
-
+int * recogerHora();
 void leerFichero();
 int menu();
-
 void masEdad(nodo *pNodo);
 
+int recogerMes(){
+    time_t t = time(NULL);
+    struct tm *tlocal = localtime(&t);
+    cout <<tlocal->tm_mon <<endl<<tlocal->tm_year<<endl;
+
+    int mes=tlocal->tm_mon+1;
+    return mes;
+}
+int recogerAno(){
+    time_t t = time(NULL);
+    struct tm *tlocal = localtime(&t);
+    cout <<tlocal->tm_mon <<endl<<tlocal->tm_year<<endl;
+
+    int ano=tlocal->tm_year+1900;
+    return ano;
+}
+
 void leerFichero(){
-    nodo *aux = new nodo; //Creamos un nodo auxiliar, y lo rellenamos con lo extraído del fichero, nodo por nodo, de forma iterativa.
+
     ifstream fin("../encuesta.tsv"); //Llamamos "fin" a la variable fichero de entrada
-    fin >> aux->fecha; //Leemos el primer valor, el nombre
     try{ // Declaro inicio del bloque que pudiese generar alguna excepcion
         while(!fin.eof()){ //Mientras no hayamos terminado de recorrer el fichero
-            fin >> aux->hora >> aux->email >> aux->nombre >> aux->apellidos >> aux->repite >> aux->exp >> aux->git >> aux->nivel >>  aux->exponer >> aux->act1 >> aux->mes >> aux->ano >> aux->hyflex;
+            nodo *aux = new nodo; //Creamos un nodo auxiliar, y lo rellenamos con lo extraído del fichero, nodo por nodo, de forma iterativa.
+            fin >> aux->fecha>> aux->hora >> aux->email >> aux->nombre >> aux->apellidos >> aux->repite >> aux->exp >> aux->git >> aux->nivel >>  aux->exponer >> aux->act1 >> aux->mes >> aux->ano >> aux->hyflex;
             cout << aux->fecha << aux->hora << aux->email << aux->nombre << aux->apellidos << aux->repite << aux->exp << aux->git << aux->nivel << aux->exponer << aux->act1 << aux->mes << aux->ano << aux->hyflex << endl;
 
                 if(head==NULL&&final==NULL){
@@ -43,10 +60,9 @@ void leerFichero(){
                     aux->sgt=NULL;
                 }
                 else{
-                    aux->sgt=head;
-                    head=aux;
+                    final->sgt=aux;
+                    final=aux;
                 }
-            fin>> aux->fecha;//Leemos para saber si estamos en fin de archivo
         }
     }
         //Cerramos archivos de texto
@@ -55,6 +71,7 @@ void leerFichero(){
         cout<< ">Error al leer el archivo"<<endl;
     }
     cout << ">El fichero se ha leido con exito"<<endl;
+    if(head!=NULL)cout << "Todo OK"<<endl;
 }
 
 int menu(){
@@ -72,36 +89,56 @@ int menu(){
     cin >> op;
     return op;
 }
-void masEdad(nodo *head) {
-
+void masEdad(int mes, int ano, nodo *head) {
+    nodo *aux = head;
+    nodo *alumno = new nodo;
+    int anoAlto=ano, mesAlto=mes;
+    while(aux->sgt!=NULL){
+        if(aux->ano<=anoAlto){
+            anoAlto=aux->ano;
+            cout << ">El ano mas bajo es : "<<aux->nombre<<" -> "<< anoAlto<<endl;
+            alumno=aux;
+            if(aux->mes<=mesAlto){
+                mesAlto=aux->mes;
+                cout << ">El mes mas bajo es: "<<aux->nombre<<" -> "<<mesAlto<<endl;
+                alumno=aux;
+            }
+        }
+        if(aux->sgt!=NULL)aux=aux->sgt;
+    }
+    cout << "El mas mayor es: "<<alumno ->nombre << " " << alumno->apellidos<<endl;
 }
 
 int main() {
-leerFichero();
-int op;
-while(op!=0) {
-    op = menu();
+    int mes=recogerMes();
+    int ano=recogerAno();
+    leerFichero();
+    int op=1;
+    while(op!=0) {
+        op = menu();
 
-    switch (op) {
-        case 1:
-            masEdad(head);
-            break;
-        case 2:
-            break;
-        case 3:
-            break;
-        case 4:
-            break;
-        case 5:
-            break;
-        case 6:
-            break;
-        case 0:
-            cout <<">Saliendo..."<<endl;
-            break;
+        switch (op) {
+            case 1:
+                cout <<"1."<<endl;
+                masEdad(mes, ano, head);
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                break;
+            case 6:
+                break;
+            case 0:
+                cout <<">Saliendo..."<<endl;
+                break;
+        }
     }
-}
-cout<<">Programa finalizado"<<endl;
+    cout<<">Programa finalizado"<<endl;
+
 }
 
 
