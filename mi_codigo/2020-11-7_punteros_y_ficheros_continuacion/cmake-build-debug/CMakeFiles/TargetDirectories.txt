@@ -1,0 +1,3 @@
+C:/Users/diegomartinc/CLionProjects/PEL/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/diegomartinc/CLionProjects/PEL/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir
+C:/Users/diegomartinc/CLionProjects/PEL/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

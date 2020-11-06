@@ -29,9 +29,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b35db931-6c16-4e59-ac13-8dece84e7da2" name="Default Changelist" comment="Cambio en menú">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b35db931-6c16-4e59-ac13-8dece84e7da2" name="Default Changelist" comment="Cambio en menú" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,11 +61,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="2020_11_5_punteros_y_ficheros" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2020_11_5_punteros_y_ficheros" TARGET_NAME="2020_11_5_punteros_y_ficheros" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="2020_11_5_punteros_y_ficheros" RUN_TARGET_NAME="2020_11_5_punteros_y_ficheros">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -89,6 +82,7 @@
       <updated>1604604881316</updated>
       <workItem from="1604604882623" duration="9140000" />
       <workItem from="1604680831060" duration="8359000" />
+      <workItem from="1604705524131" duration="73000" />
     </task>
     <task id="LOCAL-00001" summary="crear">
       <created>1604604902545</created>
