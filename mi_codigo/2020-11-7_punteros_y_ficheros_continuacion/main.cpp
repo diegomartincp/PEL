@@ -112,8 +112,8 @@ void cumple(int mes, nodo *head){
     nodo *aux=head;
     cout<<">Este mes "<<mes<<" es el cumpleanos de :";
     do{
-        if(aux->mes=mes){
-            cout<< aux->nombre <<" "<<aux->apellidos;
+        if(aux->mes==mes){
+            cout<< aux->nombre <<" "<<aux->apellidos<<endl;
         }
         aux=aux->sgt;
     }while(aux!=NULL);

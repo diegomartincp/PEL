@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/diegomartinc/CLionProjects/PEL/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/main.cpp
+iostream
+-
+fstream
+-
+time.h
+-
+
