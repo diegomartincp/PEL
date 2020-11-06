@@ -117,8 +117,28 @@ void cumple(int mes, nodo *head){
         }
         aux=aux->sgt;
     }while(aux!=NULL);
+}
 
+void expImpar(nodo *head) {
+    nodo *aux = head;
+    cout << "Tienen expediente impar: " << endl;
+    do {
+    if (aux->exp % 2 != 0) {
+        cout << aux->nombre << " " << aux->apellidos << " con expediente: " << aux->exp << endl;
+    }
+    aux=aux->sgt;
+    }while(aux!=NULL);
+}
 
+void expPar(nodo *head){
+    nodo *aux = head;
+    cout << "Tienen expediente impar: " << endl;
+    do {
+        if (aux->exp % 2 == 0) {
+            cout << aux->nombre << " " << aux->apellidos << " con expediente: " << aux->exp << endl;
+        }
+        aux=aux->sgt;
+    }while(aux!=NULL);
 }
 
 int main() {
@@ -141,8 +161,12 @@ int main() {
                 cumple(mes, head);
                 break;
             case 3:
+                cout << "3. Listado de alumnos con expediente impar "<<endl<<endl;
+                expImpar(head);
                 break;
             case 4:
+                cout << "4. Listado de alumnos con expediente par  "<<endl<<endl;
+                expPar(head);
                 break;
             case 5:
                 break;
