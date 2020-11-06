@@ -120,10 +120,12 @@ int main() {
 
         switch (op) {
             case 1:
-                cout <<"1."<<endl;
+                cout <<"1. Quien es el alumno mas viejo  "<<endl<<endl;
                 masEdad(mes, ano, head);
+                cout<<endl;
                 break;
             case 2:
+                cout << "2. Cuantos alumnos cumplen anos este mes"<<endl<<endl;
                 break;
             case 3:
                 break;
@@ -137,6 +139,7 @@ int main() {
                 cout <<">Saliendo..."<<endl;
                 break;
         }
+        cout << ">Operacion  finalizada"<<endl;
     }
     cout<<">Programa finalizado"<<endl;
 
