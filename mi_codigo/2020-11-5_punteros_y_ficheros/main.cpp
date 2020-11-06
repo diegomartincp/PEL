@@ -76,9 +76,8 @@ void leerFichero(){
 
 int menu(){
     int op;
-    cout << "ACTIVIDAD 2 - DIEGO MARTIN CAMPOS" <<endl;
-    cout << "UNIVERSIDAD EUROPEA DE MADRID" <<endl;
-    cout << "-------------------------------Menu-------------------------------"<<endl;
+
+    cout << "\n-------------------------------Menu-------------------------------"<<endl;
     cout << "| 1. Quien es el alumno mas viejo                                |"<<endl;
     cout << "| 2. Cuantos alumnos cumplen anos este mes                       |"<<endl;
     cout << "| 3. Listado de alumnos con expediente impar                     |"<<endl;
@@ -106,10 +105,12 @@ void masEdad(int mes, int ano, nodo *head) {
         }
         if(aux->sgt!=NULL)aux=aux->sgt;
     }
-    cout << "El mas mayor es: "<<alumno ->nombre << " " << alumno->apellidos<<endl;
+    cout << ">El mas mayor es: "<<alumno ->nombre << " " << alumno->apellidos<<endl;
 }
 
 int main() {
+    cout << "ACTIVIDAD 2 - DIEGO MARTIN CAMPOS" <<endl;
+    cout << "UNIVERSIDAD EUROPEA DE MADRID" <<endl;
     int mes=recogerMes();
     int ano=recogerAno();
     leerFichero();
