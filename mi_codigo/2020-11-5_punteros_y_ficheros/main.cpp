@@ -26,6 +26,8 @@ nodo *head=NULL, *final=NULL;
 void leerFichero();
 int menu();
 
+void masEdad(nodo *pNodo);
+
 void leerFichero(){
     nodo *aux = new nodo; //Creamos un nodo auxiliar, y lo rellenamos con lo extraído del fichero, nodo por nodo, de forma iterativa.
     ifstream fin("../encuesta.tsv"); //Llamamos "fin" a la variable fichero de entrada
@@ -56,6 +58,7 @@ void leerFichero(){
 }
 
 int menu(){
+    int op;
     cout << "ACTIVIDAD 2 - DIEGO MARTIN CAMPOS" <<endl;
     cout << "UNIVERSIDAD EUROPEA DE MADRID" <<endl;
     cout << "-------------------------------Menu-------------------------------"<<endl;
@@ -66,12 +69,42 @@ int menu(){
     cout << "| 5. Porcentaje de alumnos que entregaron la act. 1              |"<<endl;
     cout << "| 6. Numero y listado de asistentes a clase Hyflex y presencial  |"<<endl;
     cout << "------------------------------------------------------------------"<<endl;
+    cin >> op;
+    return op;
+}
+void masEdad(nodo *head) {
+
 }
 
 int main() {
 leerFichero();
-int op = menu();
+int op;
+while(op!=0) {
+    op = menu();
 
-cout<<">Main finalizado"<<endl;
+    switch (op) {
+        case 1:
+            masEdad(head);
+            break;
+        case 2:
+            break;
+        case 3:
+            break;
+        case 4:
+            break;
+        case 5:
+            break;
+        case 6:
+            break;
+        case 0:
+            cout <<">Saliendo..."<<endl;
+            break;
+    }
 }
+cout<<">Programa finalizado"<<endl;
+}
+
+
+
+
 
