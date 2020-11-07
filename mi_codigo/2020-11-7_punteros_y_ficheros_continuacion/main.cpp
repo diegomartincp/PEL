@@ -3,6 +3,7 @@
 #include <time.h>
 using namespace std;
 
+//Creamos la estructura de los nodos, que almacenan las respuestas de cada estudiante en la encuesta y se almacenan como una linked list
 struct nodo{
     string fecha;
     string hora;
@@ -22,12 +23,11 @@ struct nodo{
     nodo *sgt;
 };
 
-nodo *head=NULL, *final=NULL;
+nodo *head=NULL, *final=NULL;   //Creamos el head y final de la lista
 
+//Declaramos las funciones
 int recogerMes();
 int recogerAno();
-void leerFichero();
-int * recogerHora();
 void leerFichero();
 int menu();
 void masEdad(int mes, int ano, nodo *head);
@@ -37,9 +37,7 @@ void expPar(nodo *head);
 void entrega(nodo *head);
 void presencialidad(nodo *head);
 
-
-void presencialidad(nodo *head);
-
+//Recogemos el mes y año del sistema para realizar los cálculos
 int recogerMes(){
     time_t t = time(NULL);
     struct tm *tlocal = localtime(&t);
@@ -53,6 +51,7 @@ int recogerAno(){
     return ano;
 }
 
+//Leemos el archivo generado por la encuesta y almacenamos las respuestas como una linked list
 void leerFichero(){
 
     ifstream fin("../encuesta.tsv"); //Llamamos "fin" a la variable fichero de entrada
@@ -81,9 +80,9 @@ void leerFichero(){
     cout << ">El fichero se ha importado como una linked list"<<endl;
 }
 
+//Mostramos el menú del programa
 int menu(){
     int op;
-
     cout << "\n-------------------------------Menu-------------------------------"<<endl;
     cout << "| 1. Quien es el alumno mas viejo                                |"<<endl;
     cout << "| 2. Cuantos alumnos cumplen anos este mes                       |"<<endl;
@@ -95,6 +94,10 @@ int menu(){
     cin >> op;
     return op;
 }
+/*
+ * calculamos quien es el estudiante más mayor, viendo primero quien es el que nació en un año menor y
+ * posteriormente quien nació en ese mismo año, en un mes anteior
+ */
 void masEdad(int mes, int ano, nodo *head) {
     nodo *aux = head;
     nodo *alumno = new nodo;
@@ -115,6 +118,7 @@ void masEdad(int mes, int ano, nodo *head) {
     cout << ">El mas mayor es: "<<alumno ->nombre << " " << alumno->apellidos<<endl;
 }
 
+//Recorremos la lista para mostrar todos los estudiantes que cumplen años este mes
 void cumple(int mes, nodo *head){
     nodo *aux=head;
     cout<<">Este mes "<<mes<<" es el cumpleanos de :"<<endl;
@@ -126,6 +130,7 @@ void cumple(int mes, nodo *head){
     }while(aux!=NULL);
 }
 
+//Recorremos la lista para mostrar los estudiantes con número de expediente impar
 void expImpar(nodo *head) {
     nodo *aux = head;
     cout << "Tienen expediente impar: " << endl;
@@ -137,6 +142,7 @@ void expImpar(nodo *head) {
     }while(aux!=NULL);
 }
 
+//Recorremos la lista para mostrar los estudiantes con número de expediente par
 void expPar(nodo *head){
     nodo *aux = head;
     cout << "Tienen expediente impar: " << endl;
@@ -147,6 +153,8 @@ void expPar(nodo *head){
         aux=aux->sgt;
     }while(aux!=NULL);
 }
+
+//Recorremos la lista para mostrar quienes son los estudiantes que han entregado la actividad 1
 void entrega(nodo *head){
     nodo *aux=head;
     int entrega=0;  //Guardamos el número de alumnos que SI han entregado la actividad 1
@@ -166,6 +174,7 @@ void entrega(nodo *head){
     cout<<">Han entregado la actividad un "<< entrega*100/nAlumnos <<"% de la clase"<<endl;
 }
 
+//Mostramos los estudiantes que acudieron a clase de forma virtual y presencial, así como el número de estos.
 void presencialidad(nodo *head){
     nodo *aux=head;
     int hyflex=0, presencial=0;
@@ -189,8 +198,6 @@ void presencialidad(nodo *head){
 
     cout <<endl<< ">Total asistentes via presencial: " << presencial << endl;
     cout << ">Total asistentes via virtual: " << hyflex << endl;
-
-
 }
 
 int main() {
