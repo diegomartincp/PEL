@@ -24,6 +24,7 @@ struct nodo{
 };
 
 nodo *head=NULL, *final=NULL;   //Creamos el head y final de la lista
+ofstream fout("../registro.txt");//Declaramos fout como variable de salida
 
 //Declaramos las funciones
 int recogerMes();
@@ -74,9 +75,10 @@ void leerFichero(){
     }
         //Cerramos archivos de texto
     catch(...){//Captura todas las excepciones posibles para no romper el program de forma descontrolada.
-        fin.close();
+
         cout<< ">Error al leer el archivo"<<endl;
     }
+    fin.close();
     cout << ">El fichero se ha importado como una linked list"<<endl;
 }
 
@@ -116,16 +118,21 @@ void masEdad(int mes, int ano, nodo *head) {
         }
         if(aux->sgt!=NULL)aux=aux->sgt;
     }
+    //Lo imprimimos por consola y guardamos en el fichero
     cout << ">El mas mayor es: "<<alumno ->nombre << " " << alumno->apellidos<<endl;
+    fout << endl<<">El mas mayor es: "<<alumno ->nombre << " " << alumno->apellidos<<endl;
 }
 
 //Recorremos la lista para mostrar todos los estudiantes que cumplen años este mes
 void cumple(int mes, nodo *head){
     nodo *aux=head;
+    //Lo imprimimos por consola y guardamos en el fichero
     cout<<">Este mes "<<mes<<" es el cumpleanos de :"<<endl;
+    fout <<endl<<">Este mes "<<mes<<" es el cumpleanos de :"<<endl;
     do{
         if(aux->mes==mes){
             cout<< aux->nombre <<" "<<aux->apellidos<<endl;
+            fout<< aux->nombre <<" "<<aux->apellidos<<endl; //Lo guardamos en el fichero
         }
         aux=aux->sgt;
     }while(aux!=NULL);
@@ -135,9 +142,11 @@ void cumple(int mes, nodo *head){
 void expImpar(nodo *head) {
     nodo *aux = head;
     cout << "Tienen expediente impar: " << endl;
+    fout <<endl<< "Tienen expediente impar: " << endl;  //Guardamos en el fichero
     do {
     if (aux->exp % 2 != 0) {
         cout << aux->nombre << " " << aux->apellidos << " con expediente: " << aux->exp << endl;
+        fout << aux->nombre << " " << aux->apellidos << " con expediente: " << aux->exp << endl;  //Guardamos en el fichero
     }
     aux=aux->sgt;
     }while(aux!=NULL);
@@ -146,10 +155,12 @@ void expImpar(nodo *head) {
 //Recorremos la lista para mostrar los estudiantes con número de expediente par
 void expPar(nodo *head){
     nodo *aux = head;
-    cout << "Tienen expediente impar: " << endl;
+    cout << "Tienen expediente par: " << endl;
+    fout <<endl<< "Tienen expediente par: " << endl;  //Guardamos en el fichero
     do {
         if (aux->exp % 2 == 0) {
             cout << aux->nombre << " " << aux->apellidos << " con expediente: " << aux->exp << endl;
+            fout << aux->nombre << " " << aux->apellidos << " con expediente: " << aux->exp << endl;  //Guardamos en fichero
         }
         aux=aux->sgt;
     }while(aux!=NULL);
@@ -161,18 +172,24 @@ void entrega(nodo *head){
     int entrega=0;  //Guardamos el número de alumnos que SI han entregado la actividad 1
     int nAlumnos=0; //Guardamos el número de alumnos sobre los que realizamos el estudio
     cout<<">Listado de estudiantes que han entregado la actividad 1: "<<endl;
+    fout<<endl<<">Listado de estudiantes que han entregado la actividad 1: "<<endl; //Guardamos en fichero
     do{
         if(!aux->act1){
             entrega++;
             cout << aux->nombre << " " << aux->apellidos <<endl;
+            fout << aux->nombre << " " << aux->apellidos <<endl;
         }
         aux=aux->sgt;
         nAlumnos++;
     }while(aux!=NULL);
     cout <<endl<<">Han entregado la actividad "<<entrega<<endl;
     cout <<">Alumnos totales " <<nAlumnos<<endl;
-    float porcentage = entrega/nAlumnos;
     cout<<">Han entregado la actividad un "<< entrega*100/nAlumnos <<"% de la clase"<<endl;
+
+    //Guardamos en el fichero
+    fout <<endl<<">Han entregado la actividad "<<entrega<<endl;
+    fout <<">Alumnos totales " <<nAlumnos<<endl;
+    fout<<">Han entregado la actividad un "<< entrega*100/nAlumnos <<"% de la clase"<<endl;
 }
 
 //Mostramos los estudiantes que acudieron a clase de forma virtual y presencial, así como el número de estos.
@@ -180,30 +197,45 @@ void presencialidad(nodo *head){
     nodo *aux=head;
     int hyflex=0, presencial=0;
     cout<<endl<<">Listado presencial:"<<endl;
+    fout<<endl<<">Listado presencial:"<<endl;
     do{
         if(!aux->hyflex){
             presencial++;
             cout<<aux->nombre<<" "<<aux->apellidos<<endl;
+            fout<<aux->nombre<<" "<<aux->apellidos<<endl;
+
         }
         aux=aux->sgt;
     }while(aux!=NULL);
     aux=head;
     cout<<endl<<">Listado hyflex:"<<endl;
+    fout<<endl<<">Listado hyflex:"<<endl;
     do{
         if(aux->hyflex){
             hyflex++;
             cout<<aux->nombre<<" "<<aux->apellidos<<endl;
+            fout<<aux->nombre<<" "<<aux->apellidos<<endl;
         }
         aux=aux->sgt;
     }while(aux!=NULL);
 
     cout <<endl<< ">Total asistentes via presencial: " << presencial << endl;
     cout << ">Total asistentes via virtual: " << hyflex << endl;
+
+    //Guardamos en el fichero
+    fout <<endl<< ">Total asistentes via presencial: " << presencial << endl;
+    fout << ">Total asistentes via virtual: " << hyflex << endl;
 }
 
 int main() {
     cout << "ACTIVIDAD 2 - DIEGO MARTIN CAMPOS" <<endl;
     cout << "UNIVERSIDAD EUROPEA DE MADRID" <<endl;
+
+    //También lo guardamos en el fichero
+    fout << "ACTIVIDAD 2 - DIEGO MARTIN CAMPOS" <<endl;
+    fout << "UNIVERSIDAD EUROPEA DE MADRID" <<endl;
+
+
     int mes=recogerMes();   //Recogemos el mes y año del sistema
     int ano=recogerAno();
     leerFichero();
@@ -239,11 +271,14 @@ int main() {
             case 0:
                 cout <<">Saliendo..."<<endl;
                 break;
+            default:
+                cout<<">Valor introducido no valido";
+                break;
         }
-
         cout <<endl << ">Operacion  finalizada"<<endl;
     }
     cout<<">Programa finalizado"<<endl;
+    fout.close();
 }
 
 
