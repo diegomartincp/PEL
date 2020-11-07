@@ -170,55 +170,32 @@ void entrega(nodo *head){
     float porcentage = entrega/nAlumnos;
     cout<<">Han entregado la actividad un "<< entrega*100/nAlumnos <<"% de la clase"<<endl;
 }
-void eQvirtual(nodo *headHyflex, nodo *finalHyflex, nodo *aux){
-    if(headHyflex==NULL && finalHyflex==NULL){
-        headHyflex=aux;
-        finalHyflex=aux;
-    }
-    else{
-        finalHyflex->sgt=aux;
-        finalHyflex=aux;
-    }
-}
-void eQpresencial(nodo *headPresencial, nodo *finalPresencial, nodo *aux){
-    if(headPresencial==NULL && finalPresencial==NULL){
-        headPresencial=aux;
-        finalPresencial=aux;
-    }
-    else{
-        finalPresencial->sgt=aux;
-        finalPresencial=aux;
-    }
-}
-/*
- * IMPORTANTE:Para almacenar un listado de los asistentes presenciales y virtuales y mostrarlos más a delante
- * hacemos dos listas donde los almacenamos en memoria dinámica para mostrarlos más a delante de forma ordenada
- */
+
 void presencialidad(nodo *head){
-    nodo *headPresencial=NULL, *finalPresencial=NULL, *headHyflex=NULL, *finalHyflex=NULL;
     nodo *aux=head;
-    int desdeHyflex=0, desdePresencial=0;
+    int hyflex=0, presencial=0;
+    cout<<endl<<">Listado presencial:"<<endl;
     do{
-        nodo
-        if(aux->hyflex){
-            desdeHyflex++;
-            eQvirtual(headHyflex,finalHyflex,aux2);
+        if(!aux->hyflex){
+            presencial++;
+            cout<<aux->nombre<<" "<<aux->apellidos<<endl;
         }
-        else{
-            desdePresencial++;
-            eQpresencial(headPresencial,finalPresencial,aux2);
+        aux=aux->sgt;
+    }while(aux!=NULL);
+    aux=head;
+    cout<<endl<<">Listado hyflex:"<<endl;
+    do{
+        if(aux->hyflex){
+            hyflex++;
+            cout<<aux->nombre<<" "<<aux->apellidos<<endl;
         }
         aux=aux->sgt;
     }while(aux!=NULL);
 
-    cout<<">Asistentes via presencial: "<<desdePresencial<<endl;
-    cout<<">Asistentes via virtual: "<<desdeHyflex<<endl;
-    cout<<endl<<">ASISTENTES PRESENCIAL:"<<endl;
-    aux=headPresencial;
-    do{
-        cout<<aux->nombre<<" "<<aux->apellidos;
-        aux=aux->sgt;
-    }while(aux!=NULL);
+    cout <<endl<< ">Total asistentes via presencial: " << presencial << endl;
+    cout << ">Total asistentes via virtual: " << hyflex << endl;
+
+
 }
 
 int main() {
