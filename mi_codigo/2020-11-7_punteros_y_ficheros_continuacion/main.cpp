@@ -90,6 +90,7 @@ int menu(){
     cout << "| 4. Listado de alumnos con expediente par                       |"<<endl;
     cout << "| 5. Porcentaje de alumnos que entregaron la act. 1              |"<<endl;
     cout << "| 6. Numero y listado de asistentes a clase Hyflex y presencial  |"<<endl;
+    cout << "| 0. Salir                                                       |"<<endl;
     cout << "------------------------------------------------------------------"<<endl;
     cin >> op;
     return op;
@@ -159,7 +160,7 @@ void entrega(nodo *head){
     nodo *aux=head;
     int entrega=0;  //Guardamos el número de alumnos que SI han entregado la actividad 1
     int nAlumnos=0; //Guardamos el número de alumnos sobre los que realizamos el estudio
-    cout<<"Han entregado la actividad 1: "<<endl;
+    cout<<">Listado de estudiantes que han entregado la actividad 1: "<<endl;
     do{
         if(!aux->act1){
             entrega++;
@@ -168,7 +169,7 @@ void entrega(nodo *head){
         aux=aux->sgt;
         nAlumnos++;
     }while(aux!=NULL);
-    cout <<endl<<">Entregan "<<entrega<<endl;
+    cout <<endl<<">Han entregado la actividad "<<entrega<<endl;
     cout <<">Alumnos totales " <<nAlumnos<<endl;
     float porcentage = entrega/nAlumnos;
     cout<<">Han entregado la actividad un "<< entrega*100/nAlumnos <<"% de la clase"<<endl;
