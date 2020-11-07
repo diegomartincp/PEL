@@ -56,11 +56,12 @@ int recogerAno(){
 void leerFichero(){
 
     ifstream fin("../encuesta.tsv"); //Llamamos "fin" a la variable fichero de entrada
-    try{ // Declaro inicio del bloque que pudiese generar alguna excepcion
+    try{
         while(!fin.eof()){ //Mientras no hayamos terminado de recorrer el fichero
-            nodo *aux = new nodo; //Creamos un nodo auxiliar, y lo rellenamos con lo extraído del fichero, nodo por nodo, de forma iterativa.
+            //Creamos un nodo auxiliar, y lo rellenamos con lo extraído del fichero, nodo por nodo, de forma iterativa.
+            nodo *aux = new nodo;
             fin >> aux->fecha>> aux->hora >> aux->email >> aux->nombre >> aux->apellidos >> aux->repite >> aux->exp >> aux->git >> aux->nivel >>  aux->exponer >> aux->act1 >> aux->mes >> aux->ano >> aux->hyflex;
-           // cout << aux->fecha << aux->hora << aux->email << aux->nombre << aux->apellidos << aux->repite << aux->exp << aux->git << aux->nivel << aux->exponer << aux->act1 << aux->mes << aux->ano << aux->hyflex << endl;
+            //cout << aux->fecha << aux->hora << aux->email << aux->nombre << aux->apellidos << aux->repite << aux->exp << aux->git << aux->nivel << aux->exponer << aux->act1 << aux->mes << aux->ano << aux->hyflex << endl;
 
             if(head==NULL&&final==NULL){
                 head=aux;
@@ -77,9 +78,11 @@ void leerFichero(){
     catch(...){//Captura todas las excepciones posibles para no romper el program de forma descontrolada.
 
         cout<< ">Error al leer el archivo"<<endl;
+        fout<< ">Error al leer el archivo"<<endl;   //Esto también lo guardamos en el registro
     }
     fin.close();
     cout << ">El fichero se ha importado como una linked list"<<endl;
+    fout << ">El fichero se ha importado como una linked list"<<endl;   //Lo guardamos en el registro
 }
 
 //Mostramos el menú del programa

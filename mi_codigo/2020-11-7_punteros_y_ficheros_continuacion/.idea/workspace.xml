@@ -30,8 +30,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ffdf428-f29a-4315-b5f1-b72e090aae3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/2020_11_7_punteros_y_ficheros_continuacion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2020_11_7_punteros_y_ficheros_continuacion.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604705598257</updated>
       <workItem from="1604705600238" duration="7249000" />
-      <workItem from="1604714228290" duration="1393000" />
+      <workItem from="1604714228290" duration="1598000" />
     </task>
     <task id="LOCAL-00001" summary="Nuevo proyecto con el código tras el error">
       <created>1604705627328</created>
@@ -152,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604712763327</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="También escritura de fichero">
+      <created>1604715673792</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604715673792</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,29 +188,30 @@
     <MESSAGE value="Correcciones para mostrar las listas y en el inicio del programa" />
     <MESSAGE value="Añado comentarios" />
     <MESSAGE value="Correcciones menores. Posiblemente listo para la entrega" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correcciones menores. Posiblemente listo para la entrega" />
+    <MESSAGE value="También escritura de fichero" />
+    <option name="LAST_COMMIT_MESSAGE" value="También escritura de fichero" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604712791549">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604712791549" />
-    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1604715610594">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1604715787124">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604715610594" />
-    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1604715610593">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604715787124" />
+    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1604715787124">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1604715610593" />
-    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1604715610593">
+    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1604715787124" />
+    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1604715787124">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1604715610593" />
-    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1604715610593">
+    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1604715787124" />
+    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1604715787124">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1604715610593" />
+    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1604715787124" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604711934637">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
