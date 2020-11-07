@@ -140,6 +140,24 @@ void expPar(nodo *head){
         aux=aux->sgt;
     }while(aux!=NULL);
 }
+void entrega(nodo *head){
+    nodo *aux=head;
+    int entrega=0;  //Guardamos el número de alumnos que SI han entregado la actividad 1
+    int nAlumnos=0; //Guardamos el número de alumnos sobre los que realizamos el estudio
+    cout<<"Han entregado la actividad 1: "<<endl;
+    do{
+        if(!aux->act1){
+            entrega++;
+            cout << aux->nombre << " " << aux->apellidos <<endl;
+        }
+        aux=aux->sgt;
+        nAlumnos++;
+    }while(aux!=NULL);
+    cout <<endl<<">Entregan "<<entrega<<endl;
+    cout <<">Alumnos totales " <<nAlumnos<<endl;
+    float porcentage = entrega/nAlumnos;
+    cout<<">Han entregado la actividad un "<< entrega*100/nAlumnos <<"% de la clase"<<endl;
+}
 
 int main() {
     cout << "ACTIVIDAD 2 - DIEGO MARTIN CAMPOS" <<endl;
@@ -169,6 +187,8 @@ int main() {
                 expPar(head);
                 break;
             case 5:
+                cout << "5. Porcentaje de alumnos que entregaron la act. 1  "<<endl<<endl;
+                entrega(head);
                 break;
             case 6:
                 break;
