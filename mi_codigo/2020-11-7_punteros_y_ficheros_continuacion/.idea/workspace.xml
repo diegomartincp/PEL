@@ -82,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604705598257</updated>
-      <workItem from="1604705600238" duration="6555000" />
+      <workItem from="1604705600238" duration="7084000" />
     </task>
     <task id="LOCAL-00001" summary="Nuevo proyecto con el código tras el error">
       <created>1604705627328</created>
@@ -133,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604711931882</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Añado comentarios">
+      <created>1604712460760</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604712460760</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Correcciones menores. Posiblemente listo para la entrega">
+      <created>1604712688223</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604712688223</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,29 +172,31 @@
     <MESSAGE value="probamos con 3 listas pero no funciona ni es útil" />
     <MESSAGE value="6. Listado presencial y hyflex terminado" />
     <MESSAGE value="Correcciones para mostrar las listas y en el inicio del programa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correcciones para mostrar las listas y en el inicio del programa" />
+    <MESSAGE value="Añado comentarios" />
+    <MESSAGE value="Correcciones menores. Posiblemente listo para la entrega" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcciones menores. Posiblemente listo para la entrega" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604705665169">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604705665169" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1604711911136">
+    <state width="1493" height="625" key="GridCell.Tab.0.bottom" timestamp="1604712653291">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604711911136" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1604711911136">
+    <state width="1493" height="625" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604712653291" />
+    <state width="1493" height="625" key="GridCell.Tab.0.center" timestamp="1604712653291">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1604711911136" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1604711911135">
+    <state width="1493" height="625" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1604712653291" />
+    <state width="1493" height="625" key="GridCell.Tab.0.left" timestamp="1604712653289">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1604711911135" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1604711911136">
+    <state width="1493" height="625" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1604712653289" />
+    <state width="1493" height="625" key="GridCell.Tab.0.right" timestamp="1604712653291">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1604711911136" />
+    <state width="1493" height="625" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1604712653291" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604711934637">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

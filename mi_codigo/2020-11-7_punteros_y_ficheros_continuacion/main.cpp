@@ -244,7 +244,6 @@ int main() {
         cout <<endl << ">Operacion  finalizada"<<endl;
     }
     cout<<">Programa finalizado"<<endl;
-
 }
 
 
