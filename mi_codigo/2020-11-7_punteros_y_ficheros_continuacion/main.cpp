@@ -43,16 +43,12 @@ void presencialidad(nodo *head);
 int recogerMes(){
     time_t t = time(NULL);
     struct tm *tlocal = localtime(&t);
-    cout <<tlocal->tm_mon <<endl<<tlocal->tm_year<<endl;
-
     int mes=tlocal->tm_mon+1;
     return mes;
 }
 int recogerAno(){
     time_t t = time(NULL);
     struct tm *tlocal = localtime(&t);
-    cout <<tlocal->tm_mon <<endl<<tlocal->tm_year<<endl;
-
     int ano=tlocal->tm_year+1900;
     return ano;
 }
@@ -64,7 +60,7 @@ void leerFichero(){
         while(!fin.eof()){ //Mientras no hayamos terminado de recorrer el fichero
             nodo *aux = new nodo; //Creamos un nodo auxiliar, y lo rellenamos con lo extraído del fichero, nodo por nodo, de forma iterativa.
             fin >> aux->fecha>> aux->hora >> aux->email >> aux->nombre >> aux->apellidos >> aux->repite >> aux->exp >> aux->git >> aux->nivel >>  aux->exponer >> aux->act1 >> aux->mes >> aux->ano >> aux->hyflex;
-            cout << aux->fecha << aux->hora << aux->email << aux->nombre << aux->apellidos << aux->repite << aux->exp << aux->git << aux->nivel << aux->exponer << aux->act1 << aux->mes << aux->ano << aux->hyflex << endl;
+           // cout << aux->fecha << aux->hora << aux->email << aux->nombre << aux->apellidos << aux->repite << aux->exp << aux->git << aux->nivel << aux->exponer << aux->act1 << aux->mes << aux->ano << aux->hyflex << endl;
 
             if(head==NULL&&final==NULL){
                 head=aux;
@@ -82,8 +78,7 @@ void leerFichero(){
         fin.close();
         cout<< ">Error al leer el archivo"<<endl;
     }
-    cout << ">El fichero se ha leido con exito"<<endl;
-    if(head!=NULL)cout << "Todo OK"<<endl;
+    cout << ">El fichero se ha importado como una linked list"<<endl;
 }
 
 int menu(){
@@ -122,7 +117,7 @@ void masEdad(int mes, int ano, nodo *head) {
 
 void cumple(int mes, nodo *head){
     nodo *aux=head;
-    cout<<">Este mes "<<mes<<" es el cumpleanos de :";
+    cout<<">Este mes "<<mes<<" es el cumpleanos de :"<<endl;
     do{
         if(aux->mes==mes){
             cout<< aux->nombre <<" "<<aux->apellidos<<endl;

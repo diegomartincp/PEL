@@ -30,7 +30,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ffdf428-f29a-4315-b5f1-b72e090aae3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/2020_11_7_punteros_y_ficheros_continuacion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2020_11_7_punteros_y_ficheros_continuacion.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/objects.a" afterDir="false" />
@@ -86,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604705598257</updated>
-      <workItem from="1604705600238" duration="5003000" />
+      <workItem from="1604705600238" duration="6146000" />
     </task>
     <task id="LOCAL-00001" summary="Nuevo proyecto con el código tras el error">
       <created>1604705627328</created>
@@ -116,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604708836673</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="probamos con 3 listas pero no funciona ni es útil">
+      <created>1604711208758</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604711208758</updated>
+    </task>
+    <task id="LOCAL-00006" summary="6. Listado presencial y hyflex terminado">
+      <created>1604711633171</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604711633171</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,32 +151,34 @@
     <MESSAGE value="2.Cumpleaños completado" />
     <MESSAGE value="3 y 4 (expedientes) completado" />
     <MESSAGE value="5. Entregan act1 completado" />
-    <option name="LAST_COMMIT_MESSAGE" value="5. Entregan act1 completado" />
+    <MESSAGE value="probamos con 3 listas pero no funciona ni es útil" />
+    <MESSAGE value="6. Listado presencial y hyflex terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="6. Listado presencial y hyflex terminado" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604705665169">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604705665169" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1604710607027">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1604711674220">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604710607027" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1604710607026">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604711674220" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1604711674219">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1604710607026" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1604710607026">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1604711674219" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1604711674219">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1604710607026" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1604710607026">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1604711674219" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1604711674220">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1604710607026" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604708858572">
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1604711674220" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604711213621">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604708858572" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604711213621" />
   </component>
 </project>
