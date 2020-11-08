@@ -102,8 +102,8 @@ void menu(){
  * posteriormente quien nació en ese mismo año, en un mes anteior
  */
 void masEdad(int mes, int ano, nodo *head) {
-    cout <<"1. Quien es el alumno mas viejo  "<<endl<<endl;
-    fout <<"1. Quien es el alumno mas viejo  "<<endl<<endl;
+    cout <<"1. Quien es el alumno mas viejo  "<<endl;
+    fout <<"1. Quien es el alumno mas viejo  "<<endl;
 
     nodo *aux = head;
     nodo *alumno = new nodo;
@@ -126,24 +126,26 @@ void masEdad(int mes, int ano, nodo *head) {
 
 //Recorremos la lista para mostrar todos los estudiantes que cumplen años este mes
 void cumple(int mes, nodo *head){
-    cout << "2. Cuantos alumnos cumplen anos este mes"<<endl<<endl;
-    fout << "2. Cuantos alumnos cumplen anos este mes"<<endl<<endl;
+    cout << "2. Cuantos alumnos cumplen anos este mes"<<endl;
+    fout << "2. Cuantos alumnos cumplen anos este mes"<<endl;
 
     nodo *aux=head;
     fout <<endl<<">Este mes "<<mes<<" es el cumpleanos de :"<<endl;
     do{
         if(aux->mes==mes){
-            cout<< aux->nombre <<" "<<aux->apellidos<<endl<<endl;
-            fout<< aux->nombre <<" "<<aux->apellidos<<endl<<endl; //Lo guardamos en el fichero
+            cout<< aux->nombre <<" "<<aux->apellidos<<endl;
+            fout<< aux->nombre <<" "<<aux->apellidos<<endl; //Lo guardamos en el fichero
         }
         aux=aux->sgt;
     }while(aux!=NULL);
+    cout<<endl;
+    fout<<endl;
 }
 
 //Recorremos la lista para mostrar los estudiantes con número de expediente impar
 void expImpar(nodo *head) {
-    cout << "3. Listado de alumnos con expediente impar "<<endl<<endl;
-    fout << "3. Listado de alumnos con expediente impar "<<endl<<endl;
+    cout << "3. Listado de alumnos con expediente impar "<<endl;
+    fout << "3. Listado de alumnos con expediente impar "<<endl;
 
     nodo *aux = head;
     do {
@@ -159,8 +161,8 @@ void expImpar(nodo *head) {
 
 //Recorremos la lista para mostrar los estudiantes con número de expediente par
 void expPar(nodo *head){
-    cout << "4. Listado de alumnos con expediente par  "<<endl<<endl;
-    fout << "4. Listado de alumnos con expediente par  "<<endl<<endl;
+    cout << "4. Listado de alumnos con expediente par  "<<endl;
+    fout << "4. Listado de alumnos con expediente par  "<<endl;
 
     nodo *aux = head;
     do {
@@ -176,8 +178,8 @@ void expPar(nodo *head){
 
 //Recorremos la lista para mostrar quienes son los estudiantes que han entregado la actividad 1
 void entrega(nodo *head){
-    cout << "5. Porcentaje de alumnos que entregaron la act. 1  "<<endl<<endl;
-    fout << "5. Porcentaje de alumnos que entregaron la act. 1  "<<endl<<endl;
+    cout << "5. Porcentaje de alumnos que entregaron la act. 1  "<<endl;
+    fout << "5. Porcentaje de alumnos que entregaron la act. 1  "<<endl;
 
     nodo *aux=head;
     int entrega=0;  //Guardamos el número de alumnos que SI han entregado la actividad 1

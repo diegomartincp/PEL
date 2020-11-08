@@ -1,6 +1,5 @@
 ACTIVIDAD 2 - DIEGO MARTIN CAMPOS
 UNIVERSIDAD EUROPEA DE MADRID
->El fichero se ha importado como una linked list
 1. Quien es el alumno mas viejo  
 
 
