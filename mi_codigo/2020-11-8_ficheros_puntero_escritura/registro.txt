@@ -14,52 +14,30 @@ MIGUEL RAMOS
 
 3. Listado de alumnos con expediente impar 
 
-
-Tienen expediente impar: 
 ANDRES AYALA con expediente: 21821611
-
 ALVARO Martinez con expediente: 21928787
-
 PABLO PASCUAL con expediente: 21939149
-
 VICTOR Cebas con expediente: 21746033
-
 JOSE VALLE con expediente: 21919855
-
 ADILEM DOBRAS con expediente: 21911633
-
 MIGUEL RAMOS con expediente: 21937215
-
 LETICIA GRUNEIRO con expediente: 21938531
-
 DAVID SOKOL con expediente: 21923681
 
 4. Listado de alumnos con expediente par  
 
-
-Tienen expediente par: 
 MARIA Torres con expediente: 21940130
-
 PABLO GONZALEZ con expediente: 21938788
-
 PABLO POZA con expediente: 21961964
-
 GABRIEL Estevez con expediente: 21877960
-
 NICOLAS PEREZ con expediente: 21926730
-
 VICTOR ARRIBAS con expediente: 21909146
-
 VICTOR PEREZ con expediente: 21923658
-
 MARIA ARIZA con expediente: 21941298
-
 DIEGO MARTIN con expediente: 21903814
 
 5. Porcentaje de alumnos que entregaron la act. 1  
 
-
->Listado de estudiantes que han entregado la actividad 1: 
 MARIA Torres
 PABLO GONZALEZ
 PABLO POZA

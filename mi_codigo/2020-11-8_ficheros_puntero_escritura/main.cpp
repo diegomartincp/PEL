@@ -78,11 +78,9 @@ void leerFichero(){
     catch(...){//Captura todas las excepciones posibles para no romper el program de forma descontrolada.
 
         cout<< ">Error al leer el archivo"<<endl;
-        fout<< ">Error al leer el archivo"<<endl;   //Esto también lo guardamos en el registro
     }
     fin.close();
     cout << ">El fichero se ha importado como una linked list"<<endl;
-    fout << ">El fichero se ha importado como una linked list"<<endl;   //Lo guardamos en el registro
 }
 
 //Mostramos el menú del programa
