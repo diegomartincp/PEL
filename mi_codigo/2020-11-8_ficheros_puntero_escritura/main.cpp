@@ -121,25 +121,25 @@ void masEdad(int mes, int ano, nodo *head) {
     }
     //Lo imprimimos por consola y guardamos en el fichero
     cout << ">El mas mayor es: "<<alumno ->nombre << " " << alumno->apellidos<<endl<<endl;
-    fout << endl<<">El mas mayor es: "<<alumno ->nombre << " " << alumno->apellidos<<endl<<endl;
+    fout << ">El mas mayor es: "<<alumno ->nombre << " " << alumno->apellidos<<endl<<endl;
 }
 
 //Recorremos la lista para mostrar todos los estudiantes que cumplen años este mes
 void cumple(int mes, nodo *head){
     cout << "2. Cuantos alumnos cumplen anos este mes"<<endl;
     fout << "2. Cuantos alumnos cumplen anos este mes"<<endl;
-
+    int alumnos=0;
     nodo *aux=head;
-    fout <<endl<<">Este mes "<<mes<<" es el cumpleanos de :"<<endl;
     do{
         if(aux->mes==mes){
+            alumnos++;
             cout<< aux->nombre <<" "<<aux->apellidos<<endl;
             fout<< aux->nombre <<" "<<aux->apellidos<<endl; //Lo guardamos en el fichero
         }
         aux=aux->sgt;
     }while(aux!=NULL);
-    cout<<endl;
-    fout<<endl;
+    cout<<">Es el cumpleaños de "<<alumnos<<" alumnos"<<endl<<endl;
+    fout<<">Es el cumpleaños de "<<alumnos<<" alumnos"<<endl<<endl;
 }
 
 //Recorremos la lista para mostrar los estudiantes con número de expediente impar
@@ -210,8 +210,8 @@ void presencialidad(nodo *head){
 
     nodo *aux=head;
     int hyflex=0, presencial=0;
-    cout<<endl<<">Listado presencial:"<<endl;
-    fout<<endl<<">Listado presencial:"<<endl;
+    cout<<">Listado presencial:"<<endl;
+    fout<<">Listado presencial:"<<endl;
     do{
         if(!aux->hyflex){
             presencial++;
