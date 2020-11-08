@@ -85,7 +85,13 @@ void leerFichero(){
 
 //Mostramos el menú del programa
 void menu(){
-    int op;
+    cout << "ACTIVIDAD 2 - DIEGO MARTIN CAMPOS" <<endl;
+    cout << "UNIVERSIDAD EUROPEA DE MADRID" <<endl;
+
+    //También lo guardamos en el fichero
+    fout << "ACTIVIDAD 2 - DIEGO MARTIN CAMPOS" <<endl;
+    fout << "UNIVERSIDAD EUROPEA DE MADRID" <<endl<<endl;
+
     cout << "\n----------------------------------------------------------------"<<endl;
     cout << "| EL PROGRAMA GUARDA EN FICHERO EL SIGUINTE CONTENIDO:           |"<<endl;
     cout << "| 1. Quien es el alumno mas viejo                                |"<<endl;
@@ -242,18 +248,9 @@ void presencialidad(nodo *head){
 }
 
 int main() {
-    cout << "ACTIVIDAD 2 - DIEGO MARTIN CAMPOS" <<endl;
-    cout << "UNIVERSIDAD EUROPEA DE MADRID" <<endl;
-
-    //También lo guardamos en el fichero
-    fout << "ACTIVIDAD 2 - DIEGO MARTIN CAMPOS" <<endl;
-    fout << "UNIVERSIDAD EUROPEA DE MADRID" <<endl;
-
-
     int mes=recogerMes();   //Recogemos el mes y año del sistema
     int ano=recogerAno();
     leerFichero();
-    int op=1;
     menu();
         //Guardamos el contenido en e fichero y lo mostramos por consola
         masEdad(mes, ano, head);
