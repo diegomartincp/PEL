@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\diegomartinc\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura
+CMAKE_SOURCE_DIR = C:\Users\campo\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\diegomartinc\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\campo\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/depend.make
@@ -78,16 +78,16 @@ include CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/flags.make
 
 CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.obj: CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/flags.make
 CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\diegomartinc\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2020_11_8_ficheros_puntero_escritura.dir\main.cpp.obj -c C:\Users\diegomartinc\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\campo\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2020_11_8_ficheros_puntero_escritura.dir\main.cpp.obj -c C:\Users\campo\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\main.cpp
 
 CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\diegomartinc\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\main.cpp > CMakeFiles\2020_11_8_ficheros_puntero_escritura.dir\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\campo\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\main.cpp > CMakeFiles\2020_11_8_ficheros_puntero_escritura.dir\main.cpp.i
 
 CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\diegomartinc\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\main.cpp -o CMakeFiles\2020_11_8_ficheros_puntero_escritura.dir\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\campo\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\main.cpp -o CMakeFiles\2020_11_8_ficheros_puntero_escritura.dir\main.cpp.s
 
 # Object files for target 2020_11_8_ficheros_puntero_escritura
 2020_11_8_ficheros_puntero_escritura_OBJECTS = \
@@ -101,7 +101,7 @@ CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.s: cmake_force
 2020_11_8_ficheros_puntero_escritura.exe: CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/linklibs.rsp
 2020_11_8_ficheros_puntero_escritura.exe: CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/objects1.rsp
 2020_11_8_ficheros_puntero_escritura.exe: CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\diegomartinc\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 2020_11_8_ficheros_puntero_escritura.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\campo\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 2020_11_8_ficheros_puntero_escritura.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\2020_11_8_ficheros_puntero_escritura.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -114,6 +114,6 @@ CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/clean:
 .PHONY : CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/clean
 
 CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\diegomartinc\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura C:\Users\diegomartinc\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura C:\Users\diegomartinc\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\cmake-build-debug C:\Users\diegomartinc\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\cmake-build-debug C:\Users\diegomartinc\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\cmake-build-debug\CMakeFiles\2020_11_8_ficheros_puntero_escritura.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\campo\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura C:\Users\campo\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura C:\Users\campo\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\cmake-build-debug C:\Users\campo\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\cmake-build-debug C:\Users\campo\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura\cmake-build-debug\CMakeFiles\2020_11_8_ficheros_puntero_escritura.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/depend
 

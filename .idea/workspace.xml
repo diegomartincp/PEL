@@ -27,7 +27,33 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ed2e73-36f8-47bc-bd5e-ca87f40e1b84" name="Default Changelist" comment="" />
+    <list default="true" id="e9ed2e73-36f8-47bc-bd5e-ca87f40e1b84" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/2020_11_8_ficheros_puntero_escritura.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/2020_11_8_ficheros_puntero_escritura.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/2020_11_8_ficheros_puntero_escritura.exe" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/2020_11_8_ficheros_puntero_escritura.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/registro.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/registro.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,14 +74,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PEL-21903814" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,6 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604604736034</updated>
       <workItem from="1604604737127" duration="144000" />
+      <workItem from="1606411724053" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="cambio nombre">
       <created>1604604776903</created>
@@ -97,12 +118,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cambio nombre" />
     <option name="LAST_COMMIT_MESSAGE" value="cambio nombre" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2180" y="283" key="FileChooserDialogImpl" timestamp="1606411747706">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2180" y="283" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606411747706" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604604821840">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

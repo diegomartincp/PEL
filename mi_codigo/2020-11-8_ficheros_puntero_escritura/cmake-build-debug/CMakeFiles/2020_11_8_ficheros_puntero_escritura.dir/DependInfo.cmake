@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/diegomartinc/CLionProjects/PEL/mi_codigo/2020-11-8_ficheros_puntero_escritura/main.cpp" "C:/Users/diegomartinc/CLionProjects/PEL/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.obj"
+  "C:/Users/campo/CLionProjects/PEL/mi_codigo/2020-11-8_ficheros_puntero_escritura/main.cpp" "C:/Users/campo/CLionProjects/PEL/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
