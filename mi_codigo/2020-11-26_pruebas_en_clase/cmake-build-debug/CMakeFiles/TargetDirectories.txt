@@ -1,0 +1,3 @@
+C:/Users/campo/CLionProjects/PEL/mi_codigo/2020-11-26_pruebas_en_clase/cmake-build-debug/CMakeFiles/2020_11_26_pruebas_en_clase.dir
+C:/Users/campo/CLionProjects/PEL/mi_codigo/2020-11-26_pruebas_en_clase/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/campo/CLionProjects/PEL/mi_codigo/2020-11-26_pruebas_en_clase/cmake-build-debug/CMakeFiles/rebuild_cache.dir
