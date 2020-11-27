@@ -28,31 +28,246 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9ed2e73-36f8-47bc-bd5e-ca87f40e1b84" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/2020_11_8_ficheros_puntero_escritura.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/2020_11_8_ficheros_puntero_escritura.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/2020_11_8_ficheros_puntero_escritura.exe" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/2020_11_8_ficheros_puntero_escritura.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/registro.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/registro.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/2020_11_5_punteros_y_ficheros.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/2020_11_5_punteros_y_ficheros.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/.idea/2020-11-7_punteros_y_ficheros_continuacion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/2020_11_7_punteros_y_ficheros_continuacion.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/2020_11_7_punteros_y_ficheros_continuacion.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/encuesta.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/encuestaCompleto.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/.idea/2020-11-8_ficheros_puntero_escritura.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/encuesta.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/encuestaCompleto.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/registro.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/.idea/2020-11-5_punteros_y_ficheros.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/2020_11_5_punteros_y_ficheros.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/2020_11_5_punteros_y_ficheros.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/encuesta.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/encuestaCompleto.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-5_punteros_y_ficheros/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/.idea/2020-11-7_punteros_y_ficheros_continuacion.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/2020_11_7_punteros_y_ficheros_continuacion.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/2020_11_7_punteros_y_ficheros_continuacion.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/2020_11_7_punteros_y_ficheros_continuacion.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/encuesta.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/encuestaCompleto.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/registro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/.idea/2020-11-8_ficheros_puntero_escritura.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/.idea/2020-11-5_punteros_y_ficheros.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/2020_11_8_ficheros_puntero_escritura.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/2020_11_8_ficheros_puntero_escritura.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/2020_11_8_ficheros_puntero_escritura.exe" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/2020_11_8_ficheros_puntero_escritura.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/linklibs.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/2020_11_8_ficheros_puntero_escritura.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/2020_11_5_punteros_y_ficheros.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/encuesta.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/encuesta.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/encuestaCompleto.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-05_punteros_y_ficheros/encuestaCompleto.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-08_ficheros_puntero_escritura/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_codigo/2020-11-8_ficheros_puntero_escritura/registro.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mi_codigo/2020-11-07_punteros_y_ficheros_continuacion/registro.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +289,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PEL-21903814" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mi_codigo" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,6 +309,7 @@
       <updated>1604604736034</updated>
       <workItem from="1604604737127" duration="144000" />
       <workItem from="1606411724053" duration="25000" />
+      <workItem from="1606480503644" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="cambio nombre">
       <created>1604604776903</created>
@@ -125,9 +348,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="cambio nombre" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2180" y="283" key="FileChooserDialogImpl" timestamp="1606411747706">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="260" y="283" key="FileChooserDialogImpl" timestamp="1606480546658">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="260" y="283" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606480546658" />
     <state x="2180" y="283" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606411747706" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604604821840">
       <screen x="0" y="0" width="1536" height="834" />

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/campo/CLionProjects/PEL/mi_codigo/2020-11-5_punteros_y_ficheros
+# Install script for directory: C:/Users/campo/CLionProjects/PEL/mi_codigo/2020-11-05_punteros_y_ficheros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

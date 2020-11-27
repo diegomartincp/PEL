@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/diegomartinc/CLionProjects/PEL/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion
+# Install script for directory: C:/Users/campo/CLionProjects/PEL/mi_codigo/2020-11-08_ficheros_puntero_escritura
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/2020_11_7_punteros_y_ficheros_continuacion")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/2020_11_8_ficheros_puntero_escritura")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/diegomartinc/CLionProjects/PEL/mi_codigo/2020-11-7_punteros_y_ficheros_continuacion/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/campo/CLionProjects/PEL/mi_codigo/2020-11-8_ficheros_puntero_escritura/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
