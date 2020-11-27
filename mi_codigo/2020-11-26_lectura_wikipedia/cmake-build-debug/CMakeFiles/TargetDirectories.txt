@@ -1,3 +1,0 @@
-C:/Users/campo/CLionProjects/PEL/mi_codigo/2020-11-26_lectura_wikipedia/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/campo/CLionProjects/PEL/mi_codigo/2020-11-26_lectura_wikipedia/cmake-build-debug/CMakeFiles/2020_11_26_lectura_wikipedia.dir
-C:/Users/campo/CLionProjects/PEL/mi_codigo/2020-11-26_lectura_wikipedia/cmake-build-debug/CMakeFiles/rebuild_cache.dir
