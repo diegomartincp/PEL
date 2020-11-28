@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/campo/CLionProjects/PEL/mi_codigo/2020-11-8_ficheros_puntero_escritura/main.cpp
+iostream
+-
+fstream
+-
+time.h
+-
+

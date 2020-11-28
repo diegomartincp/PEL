@@ -27,7 +27,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5079b7ee-b7b1-4615-8782-4a6cb04fc95c" name="Default Changelist" comment="" />
+    <list default="true" id="576127c2-c7c0-482a-8d19-9c64ef0711cb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1kCKAwNcGHl98MvRWMowkRBn2NM" />
+  <component name="ProjectId" id="1k31OF5qPGaWNZLmbtD8IoF43BV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,14 +54,27 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5079b7ee-b7b1-4615-8782-4a6cb04fc95c" name="Default Changelist" comment="" />
-      <created>1605198993858</created>
+      <changelist id="576127c2-c7c0-482a-8d19-9c64ef0711cb" name="Default Changelist" comment="" />
+      <created>1604914426515</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605198993858</updated>
-      <workItem from="1605198994868" duration="33000" />
+      <updated>1604914426515</updated>
+      <workItem from="1604914427744" duration="32000" />
+      <workItem from="1606412655668" duration="24000" />
+      <workItem from="1606480548904" duration="82000" />
     </task>
+    <task id="LOCAL-00001" summary="Reordenar cosas">
+      <created>1606480567849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606480567849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -73,11 +86,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Reordenar cosas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reordenar cosas" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="159" key="FileChooserDialogImpl" timestamp="1605199003561">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1606480612796">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="549" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1605199003561" />
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606480612796" />
+    <state x="2660" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606412669704" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1606480571167">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606480571167" />
+    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604914438891">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1604914438891" />
   </component>
 </project>
