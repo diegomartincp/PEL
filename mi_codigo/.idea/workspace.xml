@@ -27,7 +27,30 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="576127c2-c7c0-482a-8d19-9c64ef0711cb" name="Default Changelist" comment="" />
+    <list default="true" id="576127c2-c7c0-482a-8d19-9c64ef0711cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/2020-11-26_pruebas_en_clase/hola.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-11-28_Actividad1_sin_comentar/.idea/2020-11-28_Actividad1_sin_comentar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-11-29_examen_palindromas/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-11-29_examen_palindromas/.idea/2020-11-29_examen_palindromas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-11-29_examen_palindromas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-11-29_examen_palindromas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-11-29_examen_palindromas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-11-29_examen_palindromas/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-11-29_examen_palindromas/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020-11-29_examen_palindromas/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mi_codigo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mi_codigo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-11-26_pruebas_en_clase/cmake-build-debug/2020_11_26_pruebas_en_clase.exe" beforeDir="false" afterPath="$PROJECT_DIR$/2020-11-26_pruebas_en_clase/cmake-build-debug/2020_11_26_pruebas_en_clase.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-11-26_pruebas_en_clase/cmake-build-debug/CMakeFiles/2020_11_26_pruebas_en_clase.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/2020-11-26_pruebas_en_clase/cmake-build-debug/CMakeFiles/2020_11_26_pruebas_en_clase.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-11-26_pruebas_en_clase/cmake-build-debug/CMakeFiles/2020_11_26_pruebas_en_clase.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/2020-11-26_pruebas_en_clase/cmake-build-debug/CMakeFiles/2020_11_26_pruebas_en_clase.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-11-26_pruebas_en_clase/cmake-build-debug/CMakeFiles/2020_11_26_pruebas_en_clase.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/2020-11-26_pruebas_en_clase/cmake-build-debug/CMakeFiles/2020_11_26_pruebas_en_clase.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-11-26_pruebas_en_clase/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2020-11-26_pruebas_en_clase/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-11-27_ejercicio_corchetes/cmake-build-debug/2020_11_27_ejercicio_corchetes.exe" beforeDir="false" afterPath="$PROJECT_DIR$/2020-11-27_ejercicio_corchetes/cmake-build-debug/2020_11_27_ejercicio_corchetes.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-11-27_ejercicio_corchetes/cmake-build-debug/CMakeFiles/2020_11_27_ejercicio_corchetes.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/2020-11-27_ejercicio_corchetes/cmake-build-debug/CMakeFiles/2020_11_27_ejercicio_corchetes.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-11-27_ejercicio_corchetes/cmake-build-debug/CMakeFiles/2020_11_27_ejercicio_corchetes.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/2020-11-27_ejercicio_corchetes/cmake-build-debug/CMakeFiles/2020_11_27_ejercicio_corchetes.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-11-27_ejercicio_corchetes/cmake-build-debug/CMakeFiles/2020_11_27_ejercicio_corchetes.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/2020-11-27_ejercicio_corchetes/cmake-build-debug/CMakeFiles/2020_11_27_ejercicio_corchetes.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-11-27_ejercicio_corchetes/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2020-11-27_ejercicio_corchetes/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +74,18 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,6 +97,8 @@
       <workItem from="1604914427744" duration="32000" />
       <workItem from="1606412655668" duration="24000" />
       <workItem from="1606480548904" duration="82000" />
+      <workItem from="1606656854667" duration="1098000" />
+      <workItem from="1606661582462" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="Reordenar cosas">
       <created>1606480567849</created>
@@ -93,11 +130,27 @@
     <option name="LAST_COMMIT_MESSAGE" value="Reordenar cosas" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1606480612796">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1606657952015">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606480612796" />
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606657952015" />
     <state x="2660" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606412669704" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1606657952800">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606657952800" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1606657952800">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606657952800" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1606657952800">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606657952800" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1606657952800">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606657952800" />
     <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1606480571167">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

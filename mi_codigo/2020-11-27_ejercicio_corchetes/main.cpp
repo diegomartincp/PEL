@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 struct nodo{
@@ -6,6 +7,8 @@ struct nodo{
     nodo *sgt=NULL;
 };
 nodo *headList=NULL, *finalList=NULL, *headStack=NULL;
+
+
 
 void addList(string simbolo){
 nodo *a=new nodo();
@@ -90,13 +93,27 @@ bool comprobarOrden(nodo *headStack_, nodo *headList_){
     return true;
 }
 
+void fileToList(){
+    ifstream fin("../fichero.txt");
+    string valor;
+    while(!fin.eof()){
+        fin>>valor;
+        addList(valor);
+    }
+    fin.close();
+}
+
 int main() {
+    /*
     string simbolo;
     while(simbolo!="0"){
         cout<< "Introduzca el simbolo o introduzca 0 si ha introducido todos" << endl;
         cin>>simbolo;
         if(simbolo!="0")addList(simbolo);
     }
+    */
+
+    fileToList();
     mostrarLista(headList);
     hacerPushDeLista(headList);
     mostrarStack(headStack);
