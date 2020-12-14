@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/campo/CLionProjects/PEL/mi_codigo/2020-11-29_examen_palindromas/main.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+
