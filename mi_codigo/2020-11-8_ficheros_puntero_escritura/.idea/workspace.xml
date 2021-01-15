@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="2020_11_8_ficheros_puntero_escritura" targetName="2020_11_8_ficheros_puntero_escritura" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="80415ee5-eeac-4da1-8ea5-338b60dd90f6" name="Default Changelist" comment="corrección completa2" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1k1ENZUajN4CW4LGBJuoHaCtn8c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\diegomartinc\CLionProjects\PEL\mi_codigo\2020-11-8_ficheros_puntero_escritura" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="2020_11_8_ficheros_puntero_escritura" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="2020_11_8_ficheros_puntero_escritura" TARGET_NAME="2020_11_8_ficheros_puntero_escritura" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="2020_11_8_ficheros_puntero_escritura" RUN_TARGET_NAME="2020_11_8_ficheros_puntero_escritura">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80415ee5-eeac-4da1-8ea5-338b60dd90f6" name="Default Changelist" comment="" />
+      <created>1604859657356</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604859657356</updated>
+      <workItem from="1604859659122" duration="1351000" />
+      <workItem from="1604914547546" duration="89000" />
+    </task>
+    <task id="LOCAL-00001" summary="prueba 2 sin menú">
+      <created>1604860534992</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604860534992</updated>
+    </task>
+    <task id="LOCAL-00002" summary="corrección">
+      <created>1604860593504</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604860593504</updated>
+    </task>
+    <task id="LOCAL-00003" summary="corrección">
+      <created>1604860691425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604860691425</updated>
+    </task>
+    <task id="LOCAL-00004" summary="corrección completa">
+      <created>1604860927874</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604860927874</updated>
+    </task>
+    <task id="LOCAL-00005" summary="corrección completa2">
+      <created>1604861004285</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604861004285</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="prueba 2 sin menú" />
+    <MESSAGE value="corrección" />
+    <MESSAGE value="corrección completa" />
+    <MESSAGE value="corrección completa2" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrección completa2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604859678827">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1604859678827" />
+    <state width="1493" height="125" key="GridCell.Tab.0.bottom" timestamp="1604861012844">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1604861012844" />
+    <state width="1493" height="125" key="GridCell.Tab.0.center" timestamp="1604861012843">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1604861012843" />
+    <state width="1493" height="125" key="GridCell.Tab.0.left" timestamp="1604861012842">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1604861012842" />
+    <state width="1493" height="125" key="GridCell.Tab.0.right" timestamp="1604861012843">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="125" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1604861012843" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1604861005816">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1604861005816" />
+  </component>
+</project>

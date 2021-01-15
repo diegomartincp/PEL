@@ -126,29 +126,33 @@ int main() {
             cout << " 7/ Gasoleo Premium" << endl;
             cout << " 8/ Gasoleo B" << endl;
             cin >> tipoGasolina;
-cout<<"HOLA"<<endl;
+
         //Creamos los nodos necesarios
         nodo *aux=new nodo();
-        nodo *g1, *g2, *g3, *g4, *g5;
+        nodo *g1=NULL, *g2=NULL, *g3=NULL, *g4=NULL, *g5=NULL;   //Las 5 gasolineras más baratas
         aux=head;
+
+        //Buscamos la más barata
         while(aux!=final){
             cout<<"-";
                 if(aux->provincia==provinciaPedida && aux->municipio==municipioPedido && aux->localidad==localidadPedida){
                     switch (tipoGasolina) {
                         case 1:
-                            cout<<".";
-                                if(g1==NULL && aux->precio95E5!=0){  //Si no hay ningun nodo en la segunda lista se añade
-                                    g1=aux;
-                                    cout<<"Anade el primero"<<endl;
-                                    cout<<g1->precio95E5<<endl;
-                                }
-                                else if(aux->precio95E5<g1->precio95E5 && aux->precio95E5!=0){   //Si es menor se sobreescribe
-                                    g1=aux;
-                                    cout<<"Sobreescribe el primero"<<endl;
-                                    cout<<g1->precio95E5<<endl;
-                                }
+                                    cout<<"+";
+                                    if (g1 == NULL &&
+                                        aux->precio95E5 != 0) {  //Si no hay ningun nodo en la segunda lista se añade
+                                        g1 = aux;
+                                        cout << "Anade el primero" << endl;
+                                        cout << g1->precio95E5 << endl;
+                                    } else if (aux->precio95E5 < g1->precio95E5 &&
+                                               aux->precio95E5 != 0) {   //Si es menor se sobreescribe
+                                        g1 = aux;
+                                        cout << "Sobreescribe el primero" << endl;
+                                        cout << g1->precio95E5 << endl;
+                                    }
                             break;
                         case 2:
+
                             break;
                         case 3:
                             break;
@@ -165,9 +169,53 @@ cout<<"HOLA"<<endl;
 
                     }
                 }
-
         aux=aux->sgt;
         }
-        cout<<"____"<<g1->precio95E5<<endl;
+
+        //Buscamos la segunda más barata
+        aux=head;
+    while(aux!=final){
+        cout<<"-";
+        if(aux->provincia==provinciaPedida && aux->municipio==municipioPedido && aux->localidad==localidadPedida){
+            switch (tipoGasolina) {
+                case 1:
+                    cout<<"+";
+                    if(g2==NULL)cout<<"?";
+                    if (g2 == NULL && aux->precio95E5 != 0 && aux->precio95E5>g1->precio95E5) {  //Si no hay ningun nodo en la segunda lista se añade
+                        g2 = aux;
+                        cout << "Anade el primero" << endl;
+                        cout << g1->precio95E5 << endl;
+                    } else if (aux->precio95E5 < g2->precio95E5 && aux->precio95E5>g1->precio95E5 &&
+                               aux->precio95E5 != 0) {   //Si es menor se sobreescribe
+                        g2 = aux;
+                        cout << "Sobreescribe el primero" << endl;
+                        cout << g1->precio95E5 << endl;
+                    }
+                    break;
+                case 2:
+
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    break;
+                case 6:
+                    break;
+                case 7:
+                    break;
+                case 8:
+                    break;
+
+            }
+        }
+        aux=aux->sgt;
+    }
+
+
+    cout<<endl<<"1 -> "<<g1->precio95E5<<endl;
+    cout<<endl<<"2 -> "<<g2->precio95E5<<endl;
+        //Buscamos la segunda más barata
 
     }
