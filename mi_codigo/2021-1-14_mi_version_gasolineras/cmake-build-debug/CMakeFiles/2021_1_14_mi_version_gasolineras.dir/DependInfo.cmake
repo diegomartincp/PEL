@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/campo/CLionProjects/PEL/mi_codigo/2021-1-14_mi_version_gasolineras/main.cpp" "C:/Users/campo/CLionProjects/PEL/mi_codigo/2021-1-14_mi_version_gasolineras/cmake-build-debug/CMakeFiles/2021_1_14_mi_version_gasolineras.dir/main.cpp.obj"
+  "C:/Users/diegomartinc/CLionProjects/PEL/mi_codigo/2021-1-14_mi_version_gasolineras/main.cpp" "C:/Users/diegomartinc/CLionProjects/PEL/mi_codigo/2021-1-14_mi_version_gasolineras/cmake-build-debug/CMakeFiles/2021_1_14_mi_version_gasolineras.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

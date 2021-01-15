@@ -37,7 +37,7 @@ struct nodo{
 
     nodo *sgt=NULL;
 };
-nodo *head=NULL, *final=NULL, *a=NULL;   //Declaramos el head, final y
+nodo *head=NULL, *final=NULL, *a=NULL, *head2=NULL, *final2=NULL;   //Declaramos el head, final y
 
 //Dejamos este espacio para declarar las funciones
 void add(nodo *a);
@@ -57,7 +57,6 @@ void add(nodo *a){
 }
 
 void eQ(nodo *actual){
-
     if(final==NULL){
         actual->sgt=NULL;
         final=actual;
@@ -69,14 +68,10 @@ void eQ(nodo *actual){
     }
     //cout<<actual->precio95E5<<endl;
 }
-
 void readFile(){
-    //int i=0;
-    ifstream read("../sin_espacios2.tsv");
+    ifstream read("../hoja_modificada_UK.tsv");
     try{
         while(!read.eof()){
-            //cout<<i<<endl;
-            //i++;
             nodo *actual= new nodo();
             read >>actual->provincia>>actual->municipio>> actual->localidad>> actual->codigoPostal>> actual->direccion>> actual->margen>> actual->longitud>> actual->latitud>> actual->precio95E5>>
                  actual->precio95E10>> actual->precio95E5Premium>> actual->precio98E5>> actual->precio98E10>> actual->precioGaseleoA>> actual->precioGasoleoPremium>>
@@ -89,7 +84,6 @@ void readFile(){
         read.close();
         cout<<"El archivo no se ha podido leer."<<endl;
     }
-    cout<<"Se ha leido toda la lista"<<endl;
 }
 
 void showQueue(){
@@ -101,9 +95,12 @@ void showQueue(){
     }
     cout<<"Lista mostrada"<<endl;
 }
+void verGasolinerasOrdenadas(){
+
+}
 int main() {
     readFile();
-    showQueue();
+    //showQueue();
     string provinciaPedida;
     string municipioPedido;
     string localidadPedida;
@@ -129,4 +126,48 @@ int main() {
             cout << " 7/ Gasoleo Premium" << endl;
             cout << " 8/ Gasoleo B" << endl;
             cin >> tipoGasolina;
+cout<<"HOLA"<<endl;
+        //Creamos los nodos necesarios
+        nodo *aux=new nodo();
+        nodo *g1, *g2, *g3, *g4, *g5;
+        aux=head;
+        while(aux!=final){
+            cout<<"-";
+                if(aux->provincia==provinciaPedida && aux->municipio==municipioPedido && aux->localidad==localidadPedida){
+                    switch (tipoGasolina) {
+                        case 1:
+                            cout<<".";
+                                if(g1==NULL && aux->precio95E5!=0){  //Si no hay ningun nodo en la segunda lista se añade
+                                    g1=aux;
+                                    cout<<"Anade el primero"<<endl;
+                                    cout<<g1->precio95E5<<endl;
+                                }
+                                else if(aux->precio95E5<g1->precio95E5 && aux->precio95E5!=0){   //Si es menor se sobreescribe
+                                    g1=aux;
+                                    cout<<"Sobreescribe el primero"<<endl;
+                                    cout<<g1->precio95E5<<endl;
+                                }
+                            break;
+                        case 2:
+                            break;
+                        case 3:
+                            break;
+                        case 4:
+                            break;
+                        case 5:
+                            break;
+                        case 6:
+                            break;
+                        case 7:
+                            break;
+                        case 8:
+                            break;
+
+                    }
+                }
+
+        aux=aux->sgt;
+        }
+        cout<<"____"<<g1->precio95E5<<endl;
+
     }
