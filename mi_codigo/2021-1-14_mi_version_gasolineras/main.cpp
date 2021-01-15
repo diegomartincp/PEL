@@ -37,7 +37,7 @@ struct nodo{
 
     nodo *sgt=NULL;
 };
-nodo *head=NULL, *final=NULL, *a=NULL, *head2=NULL, *final2=NULL;   //Declaramos el head, final y
+nodo *head=NULL, *final=NULL;   //Declaramos el head, final y
 
 //Dejamos este espacio para declarar las funciones
 void add(nodo *a);
